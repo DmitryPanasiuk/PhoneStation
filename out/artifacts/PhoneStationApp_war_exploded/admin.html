@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Administrator</title>
+    <link type="text/css" rel="stylesheet" href="admin.css"/>
+    <script type="text/javascript">
+        var myStorage = localStorage;
+        if (myStorage.getItem("name") === null) {
+            window.location.href = "/index.html";
+        }
+    </script>
+</head>
+
+<body>
+<div class="page-wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="btn">Menu
+                <ul class="menu">
+                    <li class="menu_list"><a href="#">Subscriber</a>
+                        <ul class="menu_drop">
+                            <li id="add_subscriber_menu"><a href="#">Subscriber connection</a></li>
+                            <li id="remove_subscriber_menu"><a href="#">Subscriber disconnection</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_list"><a href="#">Blocking</a>
+                        <ul class="menu_drop">
+                            <li id="blocking_menu"><a href="#">Subscriber block</a></li>
+                        </ul>
+                    </li>
+                    <li id="exit_menu"><a href="#">Exit</a></li>
+                </ul>
+            </div>
+            <div id="user">
+                <p id="profile">Administrator. </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="add_subscriber">
+            <p>Subscriber name</p>
+            <input type="text" class="subscriber" id="name" placeholder="Enter name">
+            <div class="info_mismatch">
+                <p id="name_mismatch">Wrong name. Only latin and cyrillic</p>
+            </div>
+            <p>Subscriber address</p>
+            <input type="text" class="subscriber" id="address" placeholder="Enter address">
+            <div class="info_mismatch">
+                <p id="address_mismatch">Wrong address. (Template: Kirova,15-25)</p>
+            </div>
+            <p>Blocking status</p>
+            <input type="text" class="subscriber" id="blocking_status" readonly value="no">
+            <p id="wrongname">A subscriber with that name already exists</p>
+            <button id="add">Add subscriber</button>
+        </div>
+        <div id="remove_subscriber">
+            <table id="subscribers_table_remove">
+                <tr>
+                    <th>Subscriber ID</th>
+                    <th>Subscriber name</th>
+                    <th>Subscriber address</th>
+                    <th>Blocking status</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+        <div id="blocking_subscriber">
+            <button id="blockAll">To block all the accounts with negative balance</button>
+            <table id="subscribers_table_blocking">
+                <tr>
+                    <th>Subscriber ID</th>
+                    <th>Subscriber name</th>
+                    <th>Subscriber address</th>
+                    <th>Lock status</th>
+                    <th>Account number</th>
+                    <th>Account state</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="author-wrapper">
+            <p class="author">Dmitry Panasiuk</p>
+        </div>
+        <div class="time-wrapper">
+            <p class="time"></p>
+        </div>
+    </div>
+
+</div>
+<script src="admin.js"></script>
+
+</body>
+
+</html>
