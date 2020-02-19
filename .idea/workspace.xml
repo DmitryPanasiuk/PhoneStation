@@ -6,22 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e75303-9f59-46cc-b00c-63716f3a192d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/Configmanager/ConfigurationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/Configmanager/ConfigurationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/administrator/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/administrator/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractDAOAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractDAOAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractDAOAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractDAOAdministrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractDAOPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractDAOPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOAdministrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/phonestation/dao/DAOSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/servlets/AdministratorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/servlets/AdministratorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/servlets/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/servlets/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/gstu/servlets/SubscriberServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/gstu/servlets/SubscriberServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4e75303-9f59-46cc-b00c-63716f3a192d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/gstu/servlets/SubscriberServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-921">
               <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -87,28 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/gstu/phonestation/service/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/Diagram.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/gstu/phonestation/subscriber/Subscriber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="10" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/resources/db.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,10 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/gstu/phonestation/service/ServiceType.java">
+        <entry file="file://$PROJECT_DIR$/web/user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="143">
+              <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -250,95 +221,7 @@
               <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-              <item name="administrator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-              <item name="Configmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-              <item name="connectionpool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="phonestation" type="462c0819:PsiDirectoryNode" />
-              <item name="subscriber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582142806753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582143576237" />
     <property name="last_opened_file_path" value="F:/java/GSTU_courses/Epam/Java Tasks/task6_my/mysql-connector-java-5.1.48-bin.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -460,12 +343,12 @@
       <updated>1580641465706</updated>
       <workItem from="1580641472198" duration="19425000" />
       <workItem from="1580936732880" duration="39452000" />
-      <workItem from="1581578153498" duration="118380000" />
+      <workItem from="1581578153498" duration="118876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177257000" />
+    <option name="totallyTimeSpent" value="177753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="930" y="4" width="980" height="1040" extended-state="0" />
@@ -541,13 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -742,9 +618,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/gstu/servlets/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SQLqueries.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/gstu/servlets/SubscriberServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-921">
           <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -762,30 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/gstu/servlets/Login.java">
+    <entry file="file://$PROJECT_DIR$/web/user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBproperties.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SQLqueries.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="143">
+          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -795,6 +675,15 @@
           <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBproperties.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/db.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/Diagram.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
