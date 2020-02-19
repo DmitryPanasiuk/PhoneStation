@@ -59,8 +59,8 @@ add.onclick = addSubscriberClick;
 
 function addSubscriberClick() {
     var matchInfo = true;
-    var regularName = /^[a-zа-яё]+( [a-zа-яё]+)?$/iu;
-    var regularAddress = /^[a-zа-яё]+[- ]?[a-zа-яё]+,{1}[0-9]{1,3}-{1}[0-9]{1,4}$/iu;
+    var regularName = /^[a-zа-яё]+( [a-zа-яё]+)?$/ui;
+    var regularAddress = /^[a-zа-яё]+[- ]?[a-zа-яё]+,{1}[0-9]{1,3}-{1}[0-9]{1,4}$/ui;
 
     if (!regularName.test(nameInput.value)) {
         matchInfo = false;

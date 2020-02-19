@@ -7,18 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4e75303-9f59-46cc-b00c-63716f3a192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/WEB-INF/classes/META-INF/PhoneStationApp.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/WEB-INF/classes/by/gstu/filters/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PhoneStationApp/META-INF/PhoneStationApp.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PhoneStationApp/by/gstu/filters/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PhoneStationApp_war_exploded/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/user.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/web/admin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -77,11 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="153">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -199,8 +187,8 @@
         <option value="$PROJECT_DIR$/web/user.css" />
         <option value="$PROJECT_DIR$/web/admin.html" />
         <option value="$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java" />
-        <option value="$PROJECT_DIR$/web/admin.js" />
         <option value="$PROJECT_DIR$/web/admin.css" />
+        <option value="$PROJECT_DIR$/web/admin.js" />
       </list>
     </option>
   </component>
@@ -245,13 +233,6 @@
             <path>
               <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gstu" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhoneStationApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoneStationApp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -265,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582109281450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582110616061" />
     <property name="last_opened_file_path" value="F:/java/GSTU_courses/Epam/Java Tasks/task6_my/mysql-connector-java-5.1.48-bin.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -374,16 +355,15 @@
       <updated>1580641465706</updated>
       <workItem from="1580641472198" duration="19425000" />
       <workItem from="1580936732880" duration="39452000" />
-      <workItem from="1581578153498" duration="109284000" />
+      <workItem from="1581578153498" duration="110828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168161000" />
+    <option name="totallyTimeSpent" value="169705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="930" y="4" width="980" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30652174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -686,23 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="51" column="65" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/user.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -717,10 +680,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/gstu/filters/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="51" column="65" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
         </state>
       </provider>
     </entry>
