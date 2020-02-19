@@ -15,6 +15,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Controller for administrator actions
+ *
+ * @author Dmitry Panasiuk
+ * @version 1.0
+ */
 @WebServlet("/AdministratorServlet")
 public class AdministratorServlet extends HttpServlet {
     @Override

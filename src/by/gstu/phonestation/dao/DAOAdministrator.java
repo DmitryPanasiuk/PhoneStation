@@ -10,6 +10,12 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * Class for sql queries
+ *
+ * @author Dmitry Panasiuk
+ * @version 1.0
+ */
 public class DAOAdministrator extends AbstractDAOAdministrator {
     private static final ConfigurationManager configuration = ConfigurationManager.getConfiguration();
     private static Logger log = Logger.getLogger(DAOAdministrator.class);

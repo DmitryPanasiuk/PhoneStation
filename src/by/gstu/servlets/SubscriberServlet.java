@@ -17,6 +17,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Controller for subscriber actions
+ *
+ * @author Dmitry Panasiuk
+ * @version 1.0
+ */
 @WebServlet("/SubscriberServlet")
 public class SubscriberServlet extends HttpServlet {
     @Override

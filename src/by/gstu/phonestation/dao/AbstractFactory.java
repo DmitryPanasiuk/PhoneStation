@@ -1,8 +1,6 @@
 package by.gstu.phonestation.dao;
 
 /**
- *
- *
  * @version 1.0
  * @author Dmitry Panasiuk
  */

@@ -5,6 +5,12 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebInitParam;
 import java.io.IOException;
 
+/**
+ * Filter class for adjusting the encoding of the request and response
+ *
+ * @author Dmitry Panasiuk
+ * @version 1.0
+ */
 @WebFilter(urlPatterns = {"/*"}, initParams = {
         @WebInitParam(name = "encoding", value = "UTF8",
                       description = "Encoding Param")})

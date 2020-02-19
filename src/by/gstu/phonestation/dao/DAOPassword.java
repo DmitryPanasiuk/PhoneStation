@@ -14,6 +14,7 @@ public class DAOPassword extends AbstractDAOPassword {
     private static final ConfigurationManager configuration = ConfigurationManager.getConfiguration();
     private static Logger log = Logger.getLogger(DAOPassword.class);
 
+    //Getting account access level
     @Override
     public int checkPassword(String name, String password) {
         int level = 0;
@@ -42,6 +43,7 @@ public class DAOPassword extends AbstractDAOPassword {
         return level;
     }
 
+    //Subscriber password change
     @Override
     public void changePassword(Subscriber subscriber, String newPass) {
         Connection connection = null;

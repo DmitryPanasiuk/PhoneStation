@@ -48,6 +48,7 @@ public class Administrator {
         return accounts;
     }
 
+    //Subscriber blocking
     public void blockSubscriber(Subscriber subscriber) {
         daoSubscriber.blockSubscriber(subscriber);
     }

@@ -13,6 +13,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class for sql queries
+ *
+ * @author Dmitry Panasiuk
+ * @version 1.0
+ */
 public class DAOAccount extends AbstractDAOAccount {
     private static final ConfigurationManager configuration = ConfigurationManager.getConfiguration();
     private static Logger log = Logger.getLogger(DAOAccount.class);

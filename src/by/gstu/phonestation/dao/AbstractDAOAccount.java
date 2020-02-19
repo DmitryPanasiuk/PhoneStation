@@ -8,6 +8,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
+/**
+ * @author Dmitry Panasiuk
+ * @version 1.0
+ */
 public abstract class AbstractDAOAccount {
     public abstract void pay(Subscriber subscriber, int amount);
 

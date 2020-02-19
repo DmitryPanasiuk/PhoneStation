@@ -48,6 +48,7 @@ public class DAOSubscriber extends AbstractDAOSubscriber {
         }
     }
 
+    //Subscriber blocking
     @Override
     public void blockSubscriber(Subscriber subscriber) {
         Connection connection = null;
@@ -161,7 +162,7 @@ public class DAOSubscriber extends AbstractDAOSubscriber {
 
     }
 
-    //creation of added subscriber services?????????
+    //changing the list of services by the subscriber
     @Override
     public void changeServicesList(int subscriberId, List<Service> services) {
         Connection connection = null;
@@ -174,11 +175,12 @@ public class DAOSubscriber extends AbstractDAOSubscriber {
             connection = connectionPool.getConnection();
             connection.setAutoCommit(false);
 
+            //Delete all subscriber services
             statement = connection.prepareStatement(configuration.getDeleteAllService());
             statement.setInt(1, subscriberId);
             statement.executeUpdate();
 
-
+            //Add services to a subscriber
             statement = connection.prepareStatement(configuration.getAddService());
             for (int i = 0; i < services.size(); i++) {
                 payment += services.get(i).getName().getCost();
@@ -188,6 +190,7 @@ public class DAOSubscriber extends AbstractDAOSubscriber {
                 statement.executeUpdate();
             }
 
+            //Setting the cost of services
             statement = connection.prepareStatement(configuration.getSetPayment());
             statement.setInt(1, payment);
             statement.setInt(2, subscriberId);
@@ -220,6 +223,7 @@ public class DAOSubscriber extends AbstractDAOSubscriber {
 
     }
 
+    //Id definition by string value
     @Override
     public int idServiceByName(String nameService) {
         int id = 0;
@@ -293,6 +297,7 @@ public class DAOSubscriber extends AbstractDAOSubscriber {
         }
     }
 
+    //Get a subscriber by name
     @Override
     public Subscriber getSubscriberByName(String subscriberName) {
         Subscriber subscriber = null;
@@ -344,6 +349,7 @@ public class DAOSubscriber extends AbstractDAOSubscriber {
         return subscriber;
     }
 
+    //Get a list of all services
     @Override
     public List<Service> getAllServices() {
         List<Service> allServices = new ArrayList<>();

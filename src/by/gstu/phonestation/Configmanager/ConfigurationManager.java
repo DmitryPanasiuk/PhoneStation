@@ -1,6 +1,5 @@
 package by.gstu.phonestation.Configmanager;
 
-import org.apache.log4j.Logger;
 import java.util.ResourceBundle;
 
 /**
@@ -15,7 +14,6 @@ public class ConfigurationManager {
 
     private static ResourceBundle dbProperties;
     private static ResourceBundle sqlQueries;
-    private static Logger log = Logger.getLogger(ConfigurationManager.class);
 
     private ConfigurationManager() {
     }

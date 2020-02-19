@@ -6,6 +6,10 @@ import org.apache.log4j.Logger;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * @author Dmitry Panasiuk
+ * @version 1.0
+ */
 public abstract class AbstractDAOPassword {
     public abstract int checkPassword(String name, String password);
     public abstract void changePassword(Subscriber subscriber, String newPass);

@@ -12,7 +12,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 /**
- * Servlet getting subscriber by account number
  *
  * @author Dmitry Panasiuk
  * @version 1.0
