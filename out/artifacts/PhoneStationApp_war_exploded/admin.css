@@ -103,7 +103,7 @@ ul {
 }
 
 .menu_list::after {
-    content: "►";
+    content: "\21D2";
     color: #fff;
     position: absolute;
     top: 0.7em;

@@ -1,4 +1,5 @@
 var addressMismatch = document.getElementById("address_mismatch");
+var blocking = document.getElementById("blocking_status");
 var nameMismatch = document.getElementById("name_mismatch");
 var wrongMessage = document.getElementById("wrongname");
 var addSubscriber = document.getElementById("add_subscriber");
@@ -57,12 +58,11 @@ var add = document.getElementById("add");
 add.onclick = addSubscriberClick;
 
 function addSubscriberClick() {
-    var blocking = document.getElementById("blocking_status");
     var matchInfo = true;
     var regularName = /^[a-zа-яё]+( [a-zа-яё]+)?$/iu;
     var regularAddress = /^[a-zа-яё]+[- ]?[a-zа-яё]+,{1}[0-9]{1,3}-{1}[0-9]{1,4}$/iu;
 
-    if (!regularName.test(name.value)) {
+    if (!regularName.test(nameInput.value)) {
         matchInfo = false;
         nameMismatch.style.visibility = "visible";
         nameInput.style.borderColor = "red";

@@ -62,7 +62,7 @@ function addSubscriberClick() {
     var regularName = /^[a-zа-яё]+( [a-zа-яё]+)?$/iu;
     var regularAddress = /^[a-zа-яё]+[- ]?[a-zа-яё]+,{1}[0-9]{1,3}-{1}[0-9]{1,4}$/iu;
 
-    if (!regularName.test(name.value)) {
+    if (!regularName.test(nameInput.value)) {
         matchInfo = false;
         nameMismatch.style.visibility = "visible";
         nameInput.style.borderColor = "red";
