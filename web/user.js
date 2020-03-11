@@ -103,6 +103,7 @@ function infoMenuClick() {
                 var servicesList = document.createTextNode(services);
 
                 cell1.appendChild(id);
+                cell1.setAttribute('hidden', 'true');
                 cell2.appendChild(name);
                 cell3.appendChild(address);
                 cell4.appendChild(block);
@@ -214,6 +215,7 @@ function servicesMenuClick() {
 
                 tdChecked.appendChild(checked);
                 tdId.appendChild(id);
+                tdId.setAttribute('hidden', 'true');
                 tdName.appendChild(ServiceName);
                 tdCost.appendChild(ServiceCost);
                 tr.appendChild(tdChecked);

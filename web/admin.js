@@ -160,6 +160,7 @@ function removeMenuClick() {
                 deleteRow.setAttributeNode(atr);
 
                 tdId.appendChild(id);
+                tdId.setAttribute('hidden', 'true');
                 tdName.appendChild(name);
                 tdAddress.appendChild(address);
                 tdBlocking.appendChild(blocking);
@@ -266,6 +267,7 @@ function blockingMenuClick() {
                 subscriberBlocking.setAttributeNode(atr);
 
                 tdId.appendChild(id);
+                tdId.setAttribute('hidden', 'true');
                 tdName.appendChild(name);
                 tdAddress.appendChild(address);
                 tdLockStatus.appendChild(lockStatus);
